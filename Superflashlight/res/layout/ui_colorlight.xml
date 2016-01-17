@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout_colorlight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F00"
+    android:onClick="onClick_ShowColorPicker" 
+    android:visibility="gone">
+    
+    <com.rumon.widget.HideTextView
+        android:id="@+id/textview_hide_color_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="点击有惊喜！~~~调色板"
+        android:textSize="20sp" />
+   </FrameLayout>
